@@ -14,7 +14,7 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import axios from 'axios';
 import { useLocation, useNavigate } from 'react-router-dom';
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://url-shortner-bchm.onrender.com';
+const API_URL = process.env.REACT_APP_API_URL;
 
 function App() {
   const [url, setUrl] = useState('');
